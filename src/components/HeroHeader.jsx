@@ -1,5 +1,3 @@
-import heroImage from '../assets/hero-granja.svg';
-
 const heroContent = {
   badge: 'Productos naturales directo del campo',
   title: 'Alimenta tu hogar con',
@@ -47,10 +45,11 @@ export function HeroHeader() {
 
         <div className="relative min-h-[320px] sm:min-h-[420px] lg:min-h-full">
           <img
-            src={heroImage}
-            alt="Selección premium de productos frescos de granja"
-            className="absolute inset-0 h-full w-full object-cover"
+            src="/hero-alma.jpg"
+            alt="Paisaje natural de Alma de Granja"
+            className="absolute inset-0 h-full w-full object-cover object-center"
             loading="eager"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-olive-900/25 via-transparent to-transparent" aria-hidden="true" />
         </div>
