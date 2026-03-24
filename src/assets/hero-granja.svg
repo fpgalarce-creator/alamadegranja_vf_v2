@@ -1,0 +1,31 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Paisaje agrícola con productos frescos">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8F0E4"/>
+      <stop offset="1" stop-color="#F8F5EE"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#738A5A"/>
+      <stop offset="1" stop-color="#4F6540"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8CA370"/>
+      <stop offset="1" stop-color="#5D744B"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C49B72"/>
+      <stop offset="1" stop-color="#9A7453"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#sky)"/>
+  <path d="M0 730C230 620 455 655 710 760C955 860 1230 895 1600 760V1200H0V730Z" fill="url(#hill2)"/>
+  <path d="M0 840C270 730 530 760 820 870C1060 965 1295 985 1600 880V1200H0V840Z" fill="url(#hill1)"/>
+  <rect x="180" y="740" width="1240" height="350" rx="24" fill="url(#table)"/>
+  <ellipse cx="620" cy="835" rx="130" ry="92" fill="#EFE9DA"/>
+  <ellipse cx="740" cy="828" rx="130" ry="94" fill="#F4EEE1"/>
+  <ellipse cx="860" cy="840" rx="132" ry="92" fill="#EBE3D3"/>
+  <circle cx="1060" cy="800" r="78" fill="#FFF6E2"/>
+  <circle cx="1140" cy="850" r="90" fill="#F0E6D2"/>
+  <rect x="960" y="930" width="250" height="100" rx="50" fill="#FBF8F1" opacity="0.88"/>
+  <path d="M560 640C660 575 780 560 900 605" stroke="#6A8050" stroke-width="20" stroke-linecap="round"/>
+</svg>
